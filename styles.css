@@ -1,0 +1,122 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'avenir-black';
+  }
+  
+  body {
+    font-family: 'avenir-black';
+    background-color: #fdfe00;
+  }
+  
+  header {
+    text-align: center;
+    padding: 0rem;
+    background-color: #fdfe00;
+    max-height: 5%;
+    color: #1a1a1a;
+    border-bottom: 0px solid #ffffff;
+  }
+  
+  .logo-header {
+    align-content: center;
+    padding: 0rem;
+    max-height: 125px;
+    max-width: 125px;
+  }
+  .hero {
+    text-align: center;
+    padding: 4rem;
+    background-color: #fdfe00;
+  }
+  
+  .cta-button {
+    font-family: 'avenir-black';
+    padding: 1rem 2rem;
+    background-color: #ff5570;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .download-images {
+    max-width: 300px;
+    max-height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .cta-button:hover {
+    font-family: 'avenir-black';
+    padding: 1rem 2rem;
+    background-color: #ff5570;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem;
+    background-color: #fdfe00;
+  }
+  
+  .feature-text {
+    padding-left: 0px;
+    padding-right: 50px;
+  }
+  .feature-chat {
+    padding-left: 0px;
+    padding-right: 90px;
+  }
+  .feature-swipe {
+    padding-left: 0px;
+    padding-right: 80px;
+  }
+
+  .feature {
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .download {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: #fdfe00;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fdfe00;
+    color: #1a1a1a;
+  }
+
+  .feature-images  {
+    max-height:300px;
+    max-width: 500px;
+    padding-right: 4rem;
+
+  }
+  .feature-connect  {
+    max-height:300px;
+    max-width: 500px;
+    padding-right: 6rem;
+
+  }
+
+
+  @media (max-width: 768px) {
+    header, .hero, .features, footer {
+      padding: 2rem;
+    }
+  }
+  
